@@ -1,4 +1,3 @@
-import { Padding } from "@mui/icons-material";
 import React from "react";
 import ColorCards from "./colorcards";
 
@@ -41,7 +40,7 @@ function ProgressCards() {
               >
                 {element.title}
                 <span style={{ float: "right" }}>
-                  {element.completion == "100%"
+                  {element.completion === "100%"
                     ? "Completed!"
                     : element.completion}
                 </span>
