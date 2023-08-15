@@ -1,0 +1,27 @@
+.content-wrapper {
+
+
+    position: absolute;
+    top: 75px;
+    left: 220px;
+    width: calc(100% - 220px);
+    background-color: #d8d9df;
+    height: calc(100vh + 200vh);
+    padding: 20px;
+
+}
+
+.contenttog {
+    left: 0% !important;
+    width: 100% !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .content-wrapper {
+        width: 100%;
+        min-width: 900px !important;
+        left: 0% !important;
+        height: calc(100vh + 300vh) !important;
+    }
+
+}

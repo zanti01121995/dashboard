@@ -1,0 +1,78 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    background-color: #4e73df;
+    height: calc(100vh + 200vh) !important;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    height: 56px;
+    padding-top: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.line {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    color: white;
+}
+
+h6,
+p {
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, .4);
+    ;
+}
+
+.collapse-heading {
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    color: lightgrey;
+}
+
+.collapse-content {
+    color: black;
+    text-align: left;
+    font-size: 13px;
+    font-family: Verdana;
+    font-weight: 300;
+}
+
+.subheads {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+    font-size: 13px;
+    font-family: Verdana;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .sidebarhider1 {
+        display: none;
+        width: auto;
+    }
+
+}
